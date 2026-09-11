@@ -51,6 +51,7 @@ services:
 
 secrets:
   webui_username:
-    file: ./docker-secrets/webui_username
+    file: /opt/nighty/secrets/webui_username
+
   webui_password:
-    file: ./docker-secrets/webui_password
+    file: /opt/nighty/secrets/webui_password
